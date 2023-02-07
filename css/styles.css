@@ -951,9 +951,11 @@ gap: 16px;
 
 
 .checkbox-text {
-display: inline-flex;
-align-items: flex-start;
-justify-content: flex-start;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
 font-weight: 400;
 font-size: 12px;
 line-height: 1.33;
@@ -972,6 +974,7 @@ color: #757575;
 
 .checkbox-text::before {
     content:"";
+    display: block;
     margin-right: 8px;
     
     width: 16px;
